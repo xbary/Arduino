@@ -17,6 +17,7 @@ menu.LwIPVariant=lwIP Variant
 menu.VTable=VTables
 menu.led=Builtin Led
 menu.FlashErase=Erase Flash
+menu.OTAPort=OTA Network Port
 
 ##############################################################
 generic.name=Generic ESP8266 Module
@@ -33,6 +34,8 @@ generic.build.variant=generic
 generic.build.spiffs_pagesize=256
 generic.build.debug_port=
 generic.build.debug_level=
+generic.menu.OTAPort.8266=8266
+generic.menu.OTAPort.8266.network.port=8266
 generic.menu.CpuFrequency.80=80 MHz
 generic.menu.CpuFrequency.80.build.f_cpu=80000000L
 generic.menu.CpuFrequency.160=160 MHz

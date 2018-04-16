@@ -46,7 +46,7 @@ public:
   virtual ~WiFiClient();
   WiFiClient(const WiFiClient&);
   WiFiClient& operator=(const WiFiClient&);
-
+  void abort();
   uint8_t status();
   virtual int connect(IPAddress ip, uint16_t port);
   virtual int connect(const char *host, uint16_t port);

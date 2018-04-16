@@ -91,6 +91,11 @@ WiFiClient& WiFiClient::operator=(const WiFiClient& other)
     return *this;
 }
 
+void WiFiClient::abort()
+{
+	if (_client)
+		_client->abort();
+}
 
 int WiFiClient::connect(const char* host, uint16_t port)
 {
