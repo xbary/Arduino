@@ -54,6 +54,8 @@ generic.menu.ResetMethod.none=none
 generic.menu.ResetMethod.none.upload.resetmethod=none
 generic.menu.ResetMethod.dtrset=dtrset
 generic.menu.ResetMethod.dtrset.upload.resetmethod=dtrset
+generic.menu.ResetMethod.xb=xb
+generic.menu.ResetMethod.xb.upload.resetmethod=xb
 generic.menu.CrystalFreq.26=26 MHz
 generic.menu.CrystalFreq.40=40 MHz
 generic.menu.CrystalFreq.40.build.extra_flags=-DF_CRYSTAL=40000000 -DESP8266
